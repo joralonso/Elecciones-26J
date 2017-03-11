@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="999"
+        android:id="@+id/electos"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:layout_margin="6dp"
+        android:textSize="20dp"
+        android:background="@drawable/rounded_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Medium Text"
+        android:id="@+id/nombre"
+        android:layout_alignTop="@+id/electos"
+        android:layout_toRightOf="@+id/electos"
+        android:layout_toEndOf="@+id/electos"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/votos"
+        android:layout_below="@+id/nombre"
+        android:layout_alignLeft="@+id/nombre"
+        android:layout_alignStart="@+id/nombre"
+        android:layout_marginTop="3dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/porcentaje"
+        android:layout_alignTop="@+id/votos"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="6dp"
+        android:textSize="15sp" />
+
+</RelativeLayout>

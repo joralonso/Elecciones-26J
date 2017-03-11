@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="999"
+        android:id="@+id/electos"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:layout_margin="3dp"
+        android:textSize="20dp"
+        android:background="@drawable/rounded_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Medium Text"
+        android:id="@+id/nombre"
+        android:layout_alignTop="@+id/electos"
+        android:layout_toRightOf="@+id/electos"
+        android:layout_alignRight="@+id/mitad"
+        android:layout_alignEnd="@+id/mitad"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/votos"
+        android:layout_below="@+id/nombre"
+        android:layout_toRightOf="@+id/electos"
+        android:layout_alignRight="@+id/mitad"
+        android:layout_alignEnd="@+id/mitad"
+        android:textSize="14sp"
+        android:layout_marginTop="3dp" />
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="999"
+        android:id="@+id/electos2"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:background="@drawable/rounded_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/votos2"
+        android:layout_below="@+id/nombre2"
+        android:layout_toLeftOf="@+id/electos2"
+        android:layout_alignLeft="@+id/mitad"
+        android:layout_alignStart="@+id/mitad"
+        android:layout_marginLeft="3dp"
+        android:gravity="right"
+        android:textSize="14sp"
+        android:layout_marginTop="3dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:id="@+id/mitad"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Medium Text"
+        android:id="@+id/nombre2"
+        android:layout_alignTop="@+id/electos2"
+        android:layout_toLeftOf="@+id/electos2"
+        android:layout_alignLeft="@+id/mitad"
+        android:layout_alignStart="@+id/mitad"
+        android:gravity="right"
+        android:textSize="18sp" />
+
+</RelativeLayout>

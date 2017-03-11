@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.alonsoftware.elecciones26j.MainActivity">
+
+    <item
+        android:id="@+id/action_memes"
+        android:orderInCategory="100"
+        android:title="Memes Políticos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_pactometro"
+        android:orderInCategory="100"
+        android:title="Pactómetro"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="About"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_buscar"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share_black_24dp"
+        app:showAsAction="always"
+        />
+</menu>
